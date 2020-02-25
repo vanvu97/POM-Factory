@@ -1,0 +1,35 @@
+package Test;
+
+import org.testng.annotations.Test;
+
+import Page.RecipeLibPage;
+import Page.UCLoginPage;
+import Utility.BaseTest;
+
+public class RecipeLibTest extends BaseTest{
+	UCLoginPage loginUC;
+	RecipeLibPage RecLib;
+	
+	@Test()
+	public void login() {
+		
+		loginUC = new UCLoginPage(driver);
+		
+		RecLib = new RecipeLibPage(driver);
+		
+		loginUC.LoginUC("VV02062020", "VV02062020");
+		
+		RecLib.CreateSchedule("!!!vvHTTP", "AAA");
+	}
+	
+//	@DataProvider(name = "RecipeLib")
+//	public Object[][] dataProvider() throws Exception {
+//		
+//	     Object[][] testObjArray = RecipeFromLibExcel.getTableArray(Links.PATH_TO_EXCEL_RecipeLib,"LibRecipe", 1);
+//
+//	     return (testObjArray);
+//	
+//    
+//	}
+	
+}

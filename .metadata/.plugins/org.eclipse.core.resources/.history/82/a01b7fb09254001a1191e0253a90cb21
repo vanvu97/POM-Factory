@@ -1,0 +1,22 @@
+package Test;
+
+import org.testng.annotations.Test;
+
+import Page.RecipeLibPage;
+import Page.UCLoginPage;
+import Utility.BaseTest;
+
+public class RecipeLibTest extends BaseTest{
+	UCLoginPage loginUC;
+	RecipeLibPage RecLib;
+	
+	@Test()
+	public void login() {
+		loginUC = new UCLoginPage(driver);
+		RecLib = new RecipeLibPage(driver);
+		loginUC.LoginUC("VV02062020", "VV02062020");
+		
+		RecLib.CreateSchedule("!!!vvHTTP", "");
+	}
+	
+}

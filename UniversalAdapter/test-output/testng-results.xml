@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="25" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1019791" started-at="2020-02-25T03:41:11Z" finished-at="2020-02-25T03:58:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1019791" started-at="2020-02-25T03:41:11Z" finished-at="2020-02-25T03:58:10Z">
+      <class name="Test.RecipeLibTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="5100" started-at="2020-02-25T10:41:12Z" finished-at="2020-02-25T10:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35640" started-at="2020-02-25T10:41:17Z" data-provider="RecipeLib" finished-at="2020-02-25T10:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 10m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[358]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4550" started-at="2020-02-25T10:41:53Z" finished-at="2020-02-25T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35967" started-at="2020-02-25T10:41:57Z" data-provider="RecipeLib" finished-at="2020-02-25T10:42:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 10m/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[359]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3920" started-at="2020-02-25T10:42:33Z" finished-at="2020-02-25T10:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="37622" started-at="2020-02-25T10:42:37Z" data-provider="RecipeLib" finished-at="2020-02-25T10:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 10m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4301" started-at="2020-02-25T10:43:15Z" finished-at="2020-02-25T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36640" started-at="2020-02-25T10:43:19Z" data-provider="RecipeLib" finished-at="2020-02-25T10:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 10m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[361]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4284" started-at="2020-02-25T10:43:56Z" finished-at="2020-02-25T10:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36783" started-at="2020-02-25T10:44:00Z" data-provider="RecipeLib" finished-at="2020-02-25T10:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 10m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[362]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4244" started-at="2020-02-25T10:44:37Z" finished-at="2020-02-25T10:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="43568" started-at="2020-02-25T10:44:41Z" data-provider="RecipeLib" finished-at="2020-02-25T10:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 1h/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[363]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3782" started-at="2020-02-25T10:45:25Z" finished-at="2020-02-25T10:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="37253" started-at="2020-02-25T10:45:28Z" data-provider="RecipeLib" finished-at="2020-02-25T10:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 1h/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[364]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3292" started-at="2020-02-25T10:46:06Z" finished-at="2020-02-25T10:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="37366" started-at="2020-02-25T10:46:09Z" data-provider="RecipeLib" finished-at="2020-02-25T10:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 1h/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[365]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4001" started-at="2020-02-25T10:46:46Z" finished-at="2020-02-25T10:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="39402" started-at="2020-02-25T10:46:50Z" data-provider="RecipeLib" finished-at="2020-02-25T10:47:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 1h/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[366]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="6346" started-at="2020-02-25T10:47:30Z" finished-at="2020-02-25T10:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36349" started-at="2020-02-25T10:47:36Z" data-provider="RecipeLib" finished-at="2020-02-25T10:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 1h/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[367]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3759" started-at="2020-02-25T10:48:12Z" finished-at="2020-02-25T10:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36589" started-at="2020-02-25T10:48:16Z" data-provider="RecipeLib" finished-at="2020-02-25T10:48:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 15m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[368]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4265" started-at="2020-02-25T10:48:53Z" finished-at="2020-02-25T10:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35582" started-at="2020-02-25T10:48:57Z" data-provider="RecipeLib" finished-at="2020-02-25T10:49:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 15m/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[369]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="5023" started-at="2020-02-25T10:49:33Z" finished-at="2020-02-25T10:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35220" started-at="2020-02-25T10:49:38Z" data-provider="RecipeLib" finished-at="2020-02-25T10:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 15m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[370]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4843" started-at="2020-02-25T10:50:13Z" finished-at="2020-02-25T10:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="39640" started-at="2020-02-25T10:50:18Z" data-provider="RecipeLib" finished-at="2020-02-25T10:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 15m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[371]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4483" started-at="2020-02-25T10:50:57Z" finished-at="2020-02-25T10:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35232" started-at="2020-02-25T10:51:02Z" data-provider="RecipeLib" finished-at="2020-02-25T10:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 15m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[372]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="5033" started-at="2020-02-25T10:51:37Z" finished-at="2020-02-25T10:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="25989" started-at="2020-02-25T10:51:42Z" data-provider="RecipeLib" finished-at="2020-02-25T10:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 30m/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[373]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13656, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1de76793-29b7-487f-ab08-d691a304512f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13656, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1de76793-29b7-487f-ab08-d691a304512f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at Page.ActivatedProcessPage.doucumenentTrackingPgs(ActivatedProcessPage.java:160)
+	at Test.RecipeLibTest.login(RecipeLibTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3756" started-at="2020-02-25T10:52:08Z" finished-at="2020-02-25T10:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36050" started-at="2020-02-25T10:52:12Z" data-provider="RecipeLib" finished-at="2020-02-25T10:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 30m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[374]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4406" started-at="2020-02-25T10:52:48Z" finished-at="2020-02-25T10:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="35714" started-at="2020-02-25T10:52:52Z" data-provider="RecipeLib" finished-at="2020-02-25T10:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 30m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4257" started-at="2020-02-25T10:53:28Z" finished-at="2020-02-25T10:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="28674" started-at="2020-02-25T10:53:32Z" data-provider="RecipeLib" finished-at="2020-02-25T10:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 30m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[376]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13548, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d07890a3-677d-410d-addf-a2f6b2852869]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13548, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d07890a3-677d-410d-addf-a2f6b2852869
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at Page.ActivatedProcessPage.doucumenentTrackingPgs(ActivatedProcessPage.java:160)
+	at Test.RecipeLibTest.login(RecipeLibTest.java:32)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="5441" started-at="2020-02-25T10:54:01Z" finished-at="2020-02-25T10:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="36215" started-at="2020-02-25T10:54:06Z" data-provider="RecipeLib" finished-at="2020-02-25T10:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 30m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[377]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="3757" started-at="2020-02-25T10:54:43Z" finished-at="2020-02-25T10:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="37020" started-at="2020-02-25T10:54:46Z" data-provider="RecipeLib" finished-at="2020-02-25T10:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 5m/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[378]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4460" started-at="2020-02-25T10:55:23Z" finished-at="2020-02-25T10:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="30900" started-at="2020-02-25T10:55:28Z" data-provider="RecipeLib" finished-at="2020-02-25T10:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 5m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[379]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15440, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6158c906-65b4-4f78-bac2-301d604d72b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="activate" href="#!activate"> is not clickable at point (369,20) because another element <div class="spinner"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DICVUVAN', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200221211950, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15440, moz:profile: C:\Users\vuvan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6158c906-65b4-4f78-bac2-301d604d72b8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at Page.ActivatedProcessPage.doucumenentTrackingPgs(ActivatedProcessPage.java:160)
+	at Test.RecipeLibTest.login(RecipeLibTest.java:32)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4720" started-at="2020-02-25T10:55:59Z" finished-at="2020-02-25T10:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="39615" started-at="2020-02-25T10:56:03Z" data-provider="RecipeLib" finished-at="2020-02-25T10:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 5m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[380]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="5840" started-at="2020-02-25T10:56:43Z" finished-at="2020-02-25T10:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="39849" started-at="2020-02-25T10:56:49Z" data-provider="RecipeLib" finished-at="2020-02-25T10:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 5m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[381]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="4228" started-at="2020-02-25T10:57:29Z" finished-at="2020-02-25T10:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="37554" started-at="2020-02-25T10:57:33Z" data-provider="RecipeLib" finished-at="2020-02-25T10:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02252020 - Daily - 5m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[382]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Test.RecipeLibTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
