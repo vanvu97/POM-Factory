@@ -25,7 +25,7 @@ public class RecipeLibTest extends BaseTest{
 		
 		schedule = new ActivatedProcessPage(driver);
 		
-		loginUC.LoginUC("VV02252020", "VV02252020");
+		loginUC.LoginUC("VV03022020", "VV03022020");
 		
 		RecLib.CreateSchedule("!!!vvHTTP", sProcessName);
 		

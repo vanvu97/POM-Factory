@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
@@ -24,7 +23,7 @@ public class BaseTest {
 		
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vuvan\\Downloads\\Driver\\chromedriver.exe");
 //		ChromeOptions options = new ChromeOptions();
-//		options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+////		options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 //		options.addArguments("--disable-extensions");
 //		options.addArguments("--disable-notifications");
 //		WebDriver driver = new ChromeDriver(options);
