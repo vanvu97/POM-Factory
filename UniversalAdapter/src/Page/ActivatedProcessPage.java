@@ -102,7 +102,7 @@ public class ActivatedProcessPage {
 	WebElement first5M;
 	@FindBy (css = "select.chosen-select-no-single:nth-child(1) > option:nth-child(3)")
 	WebElement first10M;
-	@FindBy (css = "select.chosen-select-no-single:nth-child(1) > option:nth-child(4)")
+	@FindBy (css = "#collapse_advancedSettings > ul > li:nth-child(1) > div.media-body.overflow-visible > p > select:nth-child(1) > option:nth-child(4)")
 	WebElement first15M;
 	@FindBy (css = "select.chosen-select-no-single:nth-child(1) > option:nth-child(5)")
 	WebElement first30M;
@@ -288,7 +288,7 @@ public class ActivatedProcessPage {
 			  
 			  String firstAccountName = sProcessName.substring(0, sProcessName.indexOf("/")); 		  
 			  
-			  if(firstAccountName.contains("5m")) {
+			  if(firstAccountName.contains("10m")) {
 				  
 				  System.out.println(firstAccountName);
 				  
@@ -321,7 +321,7 @@ public class ActivatedProcessPage {
 				  
 //				  executor5.executeScript("arguments[0].click();", first1H);
 				  
-			  }else if(firstAccountName.contains("10m")) {
+			  }else if(firstAccountName.contains("5m")) {
 				  
 				  System.out.println(firstAccountName);
 				  

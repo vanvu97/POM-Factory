@@ -56,14 +56,18 @@ public static Object[][] getTableArray(String FilePath, String SheetName, int iT
 }
 //This method is to read the test data from the Excel cell, in this we are passing parameters as Row num and Col num
 public static String getCellData(int RowNum, int ColNum) throws Exception{
+	
    try{
+	   
+//	  for (int row = 1; row <= totalRows(); row++) {
 	  Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
 	  String CellData = Cell.getStringCellValue();
 	  return CellData;
 	  }catch (Exception e){
 		return"";
 		}
-	}
+   
+}
 public static String getTestCaseName(String sTestCase)throws Exception{
 	String value = sTestCase;
 	try{

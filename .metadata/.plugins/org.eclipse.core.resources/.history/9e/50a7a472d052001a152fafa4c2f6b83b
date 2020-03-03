@@ -1,8 +1,0 @@
-package Test;
-
-public class Snippet {
-	public static void main(String[] args) {
-		import org.eclipse.jetty.util.log.Log;
-	}
-}
-
