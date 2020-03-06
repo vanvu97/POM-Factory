@@ -2,25 +2,25 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47050" started-at="2020-03-03T08:36:17Z" finished-at="2020-03-03T08:37:04Z">
+  <suite name="Default suite" duration-ms="50562" started-at="2020-03-06T09:30:13Z" finished-at="2020-03-06T09:31:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47050" started-at="2020-03-03T08:36:17Z" finished-at="2020-03-03T08:37:04Z">
+    <test name="Default test" duration-ms="50562" started-at="2020-03-06T09:30:13Z" finished-at="2020-03-06T09:31:04Z">
       <class name="Test.RecipeLibTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="10536" started-at="2020-03-03T15:36:19Z" finished-at="2020-03-03T15:36:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="10362" started-at="2020-03-06T16:30:15Z" finished-at="2020-03-06T16:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="34253" started-at="2020-03-03T15:36:29Z" data-provider="RecipeLib" finished-at="2020-03-03T15:37:04Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="38506" started-at="2020-03-06T16:30:25Z" data-provider="RecipeLib" finished-at="2020-03-06T16:31:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[03032020 - Daily - 15m/1d]]>
+                <![CDATA[02212020 - Daily - 5m/1d]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[16:45 PM]]>
+                <![CDATA[05:00 PM]]>
               </value>
             </param>
             <param index="2">
@@ -35,7 +35,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[358]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">

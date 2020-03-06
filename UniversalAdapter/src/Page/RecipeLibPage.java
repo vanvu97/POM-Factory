@@ -43,6 +43,13 @@ public class RecipeLibPage {
 	WebElement btnExecute;
 	@FindBy (css = "div.panel-edit-title:nth-child(1)")
 	WebElement getText;
+	@FindBy (xpath = "//*[@id=\"buildmanagement-content\"]/div[2]/div[1]/div[2]/ng-include/div/div[1]/div[4]/button[1]")
+	WebElement btnSave2;
+	
+	@FindBy (xpath = "//input[@class='form-trans expand-ani expand-150-200 ng-pristine ng-untouched ng-valid ng-not-empty']")
+	WebElement clearName;
+	@FindBy (xpath = "//input[@class='form-trans expand-ani expand-150-200 ng-valid ng-empty ng-dirty ng-valid-parse ng-touched']")
+	WebElement sentName;
 	
 	
 	WebDriver driver;
@@ -75,7 +82,7 @@ public class RecipeLibPage {
 
 			executor.executeScript("arguments[0].click();", RecipesFolder);
 				
-			WebElement selectRecipe = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[3]/ul[2]/li/ul/li/ul/li[16]/a[2]"));
+			WebElement selectRecipe = driver.findElement(By.xpath("//a[contains(text(), '"+ recipeName +"') and @class='tree-toggler']"));
 			
 			executor.executeScript("var evt = document.createEvent('MouseEvents');"+ 
 					"evt.initMouseEvent('dblclick',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);"+ 
@@ -85,30 +92,46 @@ public class RecipeLibPage {
 		try {
 			
 			Thread.sleep(3000);
-
-			executor.executeScript("arguments[0].click();", btnImport);
 			
-			executor.executeScript("arguments[0].click();", hoverActivates2);
-			
-			Thread.sleep(3000);
-			
-			executor.executeScript("arguments[0].click();", inputName);
-			
-			executor.executeScript("arguments[0].value = '';", inputName);
+			if(btnSave2.getText().contains("Save")) {
 				
-			executor.executeScript("arguments[0].value = '"+ newRecipeName +"';", inputName);
-			
-			inputName.sendKeys(".");
-			
-			btnSave.click();
-			
-			Thread.sleep(3000);
-			
-			executor.executeScript("arguments[0].click();", btnExecute);
-			
-			System.out.println("Completed execute Recipes " + newRecipeName);
+				clearName.clear();
+				
+				sentName.sendKeys(newRecipeName);
+				
+				executor.executeScript("arguments[0].click();", btnSave2);
+				
+				driver.findElement(By.xpath("//button[@class='switch-button btn btn-success run-button btn-xs width-xs-80']")).click();
+				
+			}else {
+
+				executor.executeScript("arguments[0].click();", btnImport);
+				
+				executor.executeScript("arguments[0].click();", hoverActivates2);
+				
+				Thread.sleep(3000);
+				
+				executor.executeScript("arguments[0].click();", inputName);
+				
+				executor.executeScript("arguments[0].value = '';", inputName);
+					
+				executor.executeScript("arguments[0].value = '"+ newRecipeName +"';", inputName);
+				
+				inputName.sendKeys(".");
+				
+				btnSave.click();
+				
+				Thread.sleep(3000);
+				
+				executor.executeScript("arguments[0].click();", btnExecute);
+				
+				System.out.println("Completed execute Recipes " + newRecipeName);
+				
+			}
 			
 			Thread.sleep(7000);	
+			
+			System.out.println("Execute The Recipe " + newRecipeName + " Successfull!");
 	    
 		} catch (InterruptedException e) {
 	    

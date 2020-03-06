@@ -128,6 +128,9 @@ public class ActivatedProcessPage {
 	@FindBy (css = ".lobibox-notify")
 	WebElement errorAlreadySchedule;
 	
+	@FindBy (xpath = "//*[@id=\"main-content\"]/div/div/div/div/div[2]/div[2]/h1")
+	WebElement activateTitle;
+	
 	WebDriver driver;
 	WebDriverWait wait;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -183,6 +186,13 @@ public class ActivatedProcessPage {
 //				System.out.println(getProcessName);
 //			
 //			}
+		
+		String titleActivate = activateTitle.getText();
+		
+		Assert.assertEquals(titleActivate, "Activated Recipe List");
+		
+		System.out.println("Load Activate Page successfull!");
+		
 		arrowDown.click();
 		
 		createScheduleText.click();
@@ -292,7 +302,7 @@ public class ActivatedProcessPage {
 				  
 				  System.out.println(firstAccountName);
 				  
-				  first5M.click();
+				  first10M.click();
 				  
 //				  executor5.executeScript("arguments[0].click();", first5M);
 				  
@@ -325,7 +335,7 @@ public class ActivatedProcessPage {
 				  
 				  System.out.println(firstAccountName);
 				  
-				  first10M.click();
+				  first5M.click();
 				  
 //				  executor5.executeScript("arguments[0].click();", first10M);
 				  
@@ -388,13 +398,13 @@ public class ActivatedProcessPage {
 			  
 			  Thread.sleep(1000);
 			  
-//			  String getText10Mins2 = error10Mins.getText();
-//
-//			  String getTextAlreadySchedule2 = errorAlreadySchedule.getText();
-//			  
-//			  Assert.assertNotEquals(getText10Mins2, "Scheduler could not run immediately. Time to run scheduler need to be greater than current time 10 minutes.");
-//			  
-//			  Assert.assertNotEquals(getTextAlreadySchedule2, "The process has already been scheduled.");
+			  String getText10Mins2 = error10Mins.getText();
+
+			  String getTextAlreadySchedule2 = errorAlreadySchedule.getText();
+			  
+			  Assert.assertNotEquals(getText10Mins2, "Scheduler could not run immediately. Time to run scheduler need to be greater than current time 10 minutes.");
+			  
+			  Assert.assertNotEquals(getTextAlreadySchedule2, "The process has already been scheduled.");
 			  
 			  break;
 			  	
@@ -563,6 +573,10 @@ public class ActivatedProcessPage {
 			  System.out.println("Looking for the Process's Name...");
 			  
 		}
+		
+		Thread.sleep(2000);
+		
+		driver.close();
 		
 	}
 	

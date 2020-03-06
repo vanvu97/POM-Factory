@@ -5,7 +5,7 @@
     <classes>
       <class name="Test.RecipeLibTest">
         <methods>
-          <include name="login" invocation-numbers="1"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Test.RecipeLibTest -->
