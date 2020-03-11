@@ -1,26 +1,386 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50562" started-at="2020-03-06T09:30:13Z" finished-at="2020-03-06T09:31:04Z">
+  <suite name="Default suite" duration-ms="504814" started-at="2020-03-11T08:38:30Z" finished-at="2020-03-11T08:46:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50562" started-at="2020-03-06T09:30:13Z" finished-at="2020-03-06T09:31:04Z">
+    <test name="Default test" duration-ms="504814" started-at="2020-03-11T08:38:30Z" finished-at="2020-03-11T08:46:55Z">
       <class name="Test.RecipeLibTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="setUp" is-config="true" duration-ms="10362" started-at="2020-03-06T16:30:15Z" finished-at="2020-03-06T16:30:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="10858" started-at="2020-03-11T15:38:33Z" finished-at="2020-03-11T15:38:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@30e6a763]" name="login" duration-ms="38506" started-at="2020-03-06T16:30:25Z" data-provider="RecipeLib" finished-at="2020-03-06T16:31:04Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="41299" started-at="2020-03-11T15:38:44Z" data-provider="RecipeLib" finished-at="2020-03-11T15:39:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[02212020 - Daily - 5m/1d]]>
+                <![CDATA[03112020 - Daily - 30m/12h]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[05:00 PM]]>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9469" started-at="2020-03-11T15:39:26Z" finished-at="2020-03-11T15:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="43979" started-at="2020-03-11T15:39:35Z" data-provider="RecipeLib" finished-at="2020-03-11T15:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 30m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="10429" started-at="2020-03-11T15:40:19Z" finished-at="2020-03-11T15:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="38395" started-at="2020-03-11T15:40:29Z" data-provider="RecipeLib" finished-at="2020-03-11T15:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 30m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9789" started-at="2020-03-11T15:41:08Z" finished-at="2020-03-11T15:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="42816" started-at="2020-03-11T15:41:18Z" data-provider="RecipeLib" finished-at="2020-03-11T15:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 30m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9771" started-at="2020-03-11T15:42:00Z" finished-at="2020-03-11T15:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="36712" started-at="2020-03-11T15:42:10Z" data-provider="RecipeLib" finished-at="2020-03-11T15:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 30m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9351" started-at="2020-03-11T15:42:47Z" finished-at="2020-03-11T15:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="36758" started-at="2020-03-11T15:42:56Z" data-provider="RecipeLib" finished-at="2020-03-11T15:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 5m/12h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9685" started-at="2020-03-11T15:43:33Z" finished-at="2020-03-11T15:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="40064" started-at="2020-03-11T15:43:43Z" data-provider="RecipeLib" finished-at="2020-03-11T15:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 5m/15m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9447" started-at="2020-03-11T15:44:23Z" finished-at="2020-03-11T15:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="40899" started-at="2020-03-11T15:44:32Z" data-provider="RecipeLib" finished-at="2020-03-11T15:45:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 5m/1d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9679" started-at="2020-03-11T15:45:13Z" finished-at="2020-03-11T15:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="40520" started-at="2020-03-11T15:45:23Z" data-provider="RecipeLib" finished-at="2020-03-11T15:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 5m/1h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Daily]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="setUp" is-config="true" duration-ms="9435" started-at="2020-03-11T15:46:03Z" finished-at="2020-03-11T15:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.RecipeLibTest@4c48fe92]" name="login" duration-ms="42453" started-at="2020-03-11T15:46:13Z" data-provider="RecipeLib" finished-at="2020-03-11T15:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03112020 - Daily - 5m/30m]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04:30 PM]]>
               </value>
             </param>
             <param index="2">

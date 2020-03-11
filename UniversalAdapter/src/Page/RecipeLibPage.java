@@ -131,7 +131,7 @@ public class RecipeLibPage {
 			
 			Thread.sleep(7000);	
 			
-			System.out.println("Execute The Recipe " + newRecipeName + " Successfull!");
+			System.out.println("The Recipe " + newRecipeName + " Was Execute Successfull!");
 	    
 		} catch (InterruptedException e) {
 	    

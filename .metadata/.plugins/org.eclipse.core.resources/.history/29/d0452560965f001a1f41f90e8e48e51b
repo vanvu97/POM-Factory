@@ -1,0 +1,122 @@
+package Utility;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class RecipeFromLibExcel {
+	private static XSSFSheet ExcelWSheet;
+	private static XSSFWorkbook ExcelWBook;
+	private static XSSFCell Cell;
+	
+public static void setExcelFile(String Path,String SheetName) throws Exception {
+	   try {
+			FileInputStream ExcelFile = new FileInputStream(Path);
+			ExcelWBook = new XSSFWorkbook(ExcelFile);
+			ExcelWSheet = ExcelWBook.getSheet(SheetName);
+			} catch (Exception e){
+				throw (e);
+			}
+	}
+public static Object[][] getTableArray(String SheetName)    throws Exception{   
+   String[][] tabArray = null;
+   try {
+		// Handle numbers and strings
+		DataFormatter formatter = new DataFormatter();
+		XSSFCell[] boundaryCells = findCells(SheetName);
+		XSSFCell startCell = boundaryCells[0];
+
+		XSSFCell endCell = boundaryCells[1];
+
+		int startRow = startCell.getRowIndex() + 1;
+		int endRow = endCell.getRowIndex() - 1;
+		int startCol = startCell.getColumnIndex() + 1;
+		int endCol = endCell.getColumnIndex() - 1;
+
+		tabArray = new String[endRow - startRow + 1][endCol - startCol + 1];
+
+		for (int i = startRow; i < endRow + 1; i++) {
+			for (int j = startCol; j < endCol + 1; j++) {
+				Cell cell = ExcelWSheet.getRow(i).getCell(j);
+				tabArray[i - startRow][j - startCol] = formatter.formatCellValue(cell);
+			}
+		}
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	return tabArray;
+}
+//This method is to read the test data from the Excel cell, in this we are passing parameters as Row num and Col num
+public static String getCellData(int RowNum, int ColNum) throws Exception{
+	
+   try{
+	   
+//	  for (int row = 1; row <= totalRows(); row++) {
+	  Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+	  String CellData = Cell.getStringCellValue();
+	  return CellData;
+	  }catch (Exception e){
+		return"";
+		}
+   
+}
+public static String getTestCaseName(String sTestCase)throws Exception{
+	String value = sTestCase;
+	try{
+		int posi = value.indexOf("@");
+		value = value.substring(0, posi);
+		posi = value.lastIndexOf(".");	
+		value = value.substring(posi + 1);
+		return value;
+			}catch (Exception e){
+		throw (e);
+			}
+	}
+public static int getRowContains(String sTestCaseName, int colNum) throws Exception{
+	int i;
+	try {
+		int rowCount = RecipeFromLibExcel.getRowUsed();
+		for ( i=0 ; i<rowCount; i++){
+			if  (RecipeFromLibExcel.getCellData(i,colNum).equalsIgnoreCase(sTestCaseName)){
+				break;
+			}
+		}
+		return i;
+			}catch (Exception e){
+		throw(e);
+		}
+	}
+public static int getRowUsed() throws Exception {
+		try{
+			int RowCount = ExcelWSheet.getLastRowNum();
+			return RowCount;
+		}catch (Exception e){
+			System.out.println(e.getMessage());
+			throw (e);
+		}
+	}
+public static XSSFCell[] findCells(String SheetName) {
+	DataFormatter formatter = new DataFormatter();
+	String pos = "begin";
+	XSSFCell[] cells = new XSSFCell[2];
+
+	for (Row row : ExcelWSheet) {
+		for (Cell cell : row) {
+			if (SheetName.equals(formatter.formatCellValue(cell))) {
+				if (pos.equalsIgnoreCase("begin")) {
+					cells[0] = (XSSFCell) cell;
+					pos = "end";
+				} else {
+					cells[1] = (XSSFCell) cell;
+				}
+			}
+		}
+	}
+	return cells;
+}
+}
